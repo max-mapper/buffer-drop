@@ -11,7 +11,7 @@ module.exports = function(container, cb) {
     var first = files[0]
     var reader = createReadStream(first)
     reader.pipe(concat(function(contents) {
-      cb(new Buffer(contents))
+      cb(null, new Buffer(contents))
     }))
     reader.on('error', cb)
   })
