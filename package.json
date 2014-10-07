@@ -1,0 +1,25 @@
+{
+  "name": "buffer-drop",
+  "version": "1.0.0",
+  "description": "high level client-side module to simplify dropping a file onto a page and reading it as a Buffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "dependencies": {
+    "concat-stream": "^1.4.6",
+    "drag-and-drop-files": "0.0.1",
+    "filereader-stream": "^0.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/buffer-drop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/buffer-drop/issues"
+  },
+  "homepage": "https://github.com/maxogden/buffer-drop"
+}
