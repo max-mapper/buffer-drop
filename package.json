@@ -1,6 +1,6 @@
 {
   "name": "buffer-drop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "high level client-side module to simplify dropping a file onto a page and reading it as a Buffer",
   "main": "index.js",
   "scripts": {
